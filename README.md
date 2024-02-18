@@ -30,12 +30,12 @@ There are 5 tasks in it:
 
 Output folder is `[workspace-root]/out/[build-mode]`.
 
-I also suggest using [Error Lens extension](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) to show the errors inline.
+I also suggest using the [Error Lens extension](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) to show the errors inline.
 ## Debugging
 If you have Visual Studio installed, you can use its cpp debugger on windows to debug Odin programs in VS Code. Use the `.vscode/launch.json` to add the corresponding launch tasks.
 After that, use the **Launch - Debug** preset (mapped to **F5**) to debug the currently open package.
 ### Using RAD debugger
-Alternatively, you can use [The RAD Debugger](https://github.com/EpicGames/raddebugger) to debug Odin programs.
+Alternatively, you can use the [RAD Debugger](https://github.com/EpicGames/raddebugger) to debug Odin programs.
 1. Get and build the [debugger](https://github.com/EpicGames/raddebugger)
 2. Build odin project with `-debug`. This generates the `.pdb` file. You can do it by using the **Build - Debug** task from this repo.
 3. In RAD debugger, set `[package-name].main` as the **Custom Entry Point**
