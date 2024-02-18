@@ -1,5 +1,11 @@
 # odin-vscode
-A bunch of helper files to improve workflows for developing [Odin](https://odin-lang.org/) programs in VS Code.
+A bunch of helper files to improve workflows for developing [Odin](https://odin-lang.org/) programs in VS Code:
+- Tasks
+    - Building and cleaning
+    - Checking
+    - Memory profiling
+- Show compiler errors and warnings as VS Code *Problems* on the correct file and line
+- Launch tasks for debug and release
 # Odin setup
 In case you haven't done already.
 1. Get and build the [compiler](https://github.com/odin-lang/Odin)
